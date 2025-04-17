@@ -61,6 +61,8 @@ These replicate the full command-line arguments normally passed by `ray start`, 
 
 Make sure to extract the command printed from the above `print(command)` modification.
 
+👉 Refer to the provided `launch.json` template in the repo for example arguments.
+
 ---
 
 ## 3. Build Ray with Debug Symbols
@@ -100,5 +102,4 @@ To improve Bazel file formatting support:
 2. Let it initialize the cluster and session directory.
 3. Copy those commands into VSCode `launch.json`.
 4. Use the VSCode debugger to launch and inspect GCS or Raylet manually.
-
 
